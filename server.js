@@ -14,6 +14,7 @@ var originWhitelist = [
   'http://localhost:8100',
   'http://localhost:4200',
   'http://localhost',
+  'http://cnb.secondcompany.nl',
   'capacitor://localhost',
 ];
 function parseEnvList(env) {
