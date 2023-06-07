@@ -1,7 +1,7 @@
 // Listen on a specific host via the HOST environment variable
 var host = process.env.HOST || '0.0.0.0';
 // Listen on a specific port via the PORT environment variable
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 9000;
 
 // Grab the blacklist from the command-line so that we can update the blacklist without deploying
 // again. CORS Anywhere is open by design, and this blacklist is not used, except for countering
@@ -12,10 +12,13 @@ var originBlacklist = [];
 // var originWhitelist = parseEnvList(process.env.CORSANYWHERE_WHITELIST);
 var originWhitelist = [
   'http://localhost:8100',
+  'http://localhost:5500',
+  'http://127.0.0.1:5500',
   'http://localhost:4200',
   'http://localhost',
   'http://cnb.secondcompany.nl',
   'capacitor://localhost',
+  'http://cnb.secondcompany.nl'
 ];
 function parseEnvList(env) {
   if (!env) {
