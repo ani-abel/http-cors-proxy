@@ -18,7 +18,8 @@ var originWhitelist = [
 	'http://localhost',
 	'capacitor://localhost',
 	'https://mastech-admin.vercel.app',
-	'https://mastech-provider.vercel.app'
+	'https://mastech-provider.vercel.app',
+	'http://159.65.62.14:8086'
 ];
 function parseEnvList(env) {
 	if (!env) {
