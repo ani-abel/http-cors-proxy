@@ -20,8 +20,9 @@ var originWhitelist = [
   "https://mastech-admin.vercel.app",
   "https://mastech-provider.vercel.app",
   "http://159.65.62.14:8086",
-  "http://localhost:5173/",
+  "http://localhost:5173",
   "https://chic-n-disy.vercel.app",
+  //   ''
 ];
 function parseEnvList(env) {
   if (!env) {
