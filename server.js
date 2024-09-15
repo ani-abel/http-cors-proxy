@@ -22,7 +22,8 @@ var originWhitelist = [
   "http://159.65.62.14:8086",
   "http://localhost:5173",
   "https://chic-n-disy.vercel.app",
-  //   ''
+  'http://www.chicndisy.com',
+  'https://www.chicndisy.com'
 ];
 function parseEnvList(env) {
   if (!env) {
