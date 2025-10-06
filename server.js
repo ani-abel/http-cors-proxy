@@ -21,7 +21,7 @@ var originWhitelist = [
   "https://mastech-provider.vercel.app",
   "http://159.65.62.14:8086",
   "http://localhost:5173",
-  "http://192.64.114.103",
+  "http://192.64.114.103:8080",
   "https://chic-n-disy.vercel.app",
   "http://www.chicndisy.com",
   "https://www.chicndisy.com",
